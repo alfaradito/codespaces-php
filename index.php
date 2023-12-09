@@ -1,3 +1,6 @@
+<?php
+  $name = "Alfa Radito";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +12,11 @@
 <body>
   <main>
     <div class="container">
-      <div class="logo">
-        <!-- <img src="logo.png" alt="Logo"> -->
+      <!-- <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div> -->
+      <div>
+        <span>Hello <?php echo($name); ?>!</span>
       </div>
       <form action="#">
         <div class="input-field">
